@@ -9,7 +9,7 @@ import Cocoa
 
 class WatchAndNoteViewController: NSViewController {
 
-    @IBOutlet private weak var videoControlMenu: VideoControlMenu!
+    @IBOutlet private weak var videoControlMenu: VideoControlMenuView!
     
     var videoPlayer: VideoPlayerViewController? {
         guard isViewLoaded else { return nil }
