@@ -16,6 +16,7 @@
 		32BDEF3228A05DD5000D4C60 /* VideoControlMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BDEF3128A05DD5000D4C60 /* VideoControlMenuView.swift */; };
 		32BDEF3428A05E68000D4C60 /* VideoPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BDEF3328A05E68000D4C60 /* VideoPlayerViewController.swift */; };
 		32E1765228A59EA60017618F /* TextEditorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E1765128A59EA60017618F /* TextEditorViewController.swift */; };
+		32E1765528A59FBE0017618F /* HashtagSuggestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E1765428A59FBE0017618F /* HashtagSuggestionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		32BDEF3128A05DD5000D4C60 /* VideoControlMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoControlMenuView.swift; sourceTree = "<group>"; };
 		32BDEF3328A05E68000D4C60 /* VideoPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerViewController.swift; sourceTree = "<group>"; };
 		32E1765128A59EA60017618F /* TextEditorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditorViewController.swift; sourceTree = "<group>"; };
+		32E1765428A59FBE0017618F /* HashtagSuggestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HashtagSuggestionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 		32BDEF3028A05D93000D4C60 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				32E1765328A59FA40017618F /* Hashtag */,
 				32BDEF3128A05DD5000D4C60 /* VideoControlMenuView.swift */,
 			);
 			path = Views;
@@ -122,6 +125,14 @@
 				324CEFC4289B1835008F3403 /* Main.storyboard */,
 			);
 			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		32E1765328A59FA40017618F /* Hashtag */ = {
+			isa = PBXGroup;
+			children = (
+				32E1765428A59FBE0017618F /* HashtagSuggestionViewController.swift */,
+			);
+			path = Hashtag;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,6 +212,7 @@
 				32BDEF3428A05E68000D4C60 /* VideoPlayerViewController.swift in Sources */,
 				324CEFBF289B1830008F3403 /* AppDelegate.swift in Sources */,
 				32BDEF3228A05DD5000D4C60 /* VideoControlMenuView.swift in Sources */,
+				32E1765528A59FBE0017618F /* HashtagSuggestionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
