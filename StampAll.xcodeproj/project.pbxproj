@@ -17,6 +17,7 @@
 		32BDEF3428A05E68000D4C60 /* VideoPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BDEF3328A05E68000D4C60 /* VideoPlayerViewController.swift */; };
 		32E1765228A59EA60017618F /* TextEditorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E1765128A59EA60017618F /* TextEditorViewController.swift */; };
 		32E1765528A59FBE0017618F /* HashtagSuggestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E1765428A59FBE0017618F /* HashtagSuggestionViewController.swift */; };
+		32E1765728A5A0380017618F /* HashtagSuggestionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E1765628A5A0380017618F /* HashtagSuggestionTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		32BDEF3328A05E68000D4C60 /* VideoPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerViewController.swift; sourceTree = "<group>"; };
 		32E1765128A59EA60017618F /* TextEditorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditorViewController.swift; sourceTree = "<group>"; };
 		32E1765428A59FBE0017618F /* HashtagSuggestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HashtagSuggestionViewController.swift; sourceTree = "<group>"; };
+		32E1765628A5A0380017618F /* HashtagSuggestionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HashtagSuggestionTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +133,7 @@
 			isa = PBXGroup;
 			children = (
 				32E1765428A59FBE0017618F /* HashtagSuggestionViewController.swift */,
+				32E1765628A5A0380017618F /* HashtagSuggestionTableViewCell.swift */,
 			);
 			path = Hashtag;
 			sourceTree = "<group>";
@@ -207,6 +210,7 @@
 			files = (
 				324CEFC1289B1830008F3403 /* WatchAndNoteViewController.swift in Sources */,
 				32BDEF2F28A05CA5000D4C60 /* File.swift in Sources */,
+				32E1765728A5A0380017618F /* HashtagSuggestionTableViewCell.swift in Sources */,
 				32E1765228A59EA60017618F /* TextEditorViewController.swift in Sources */,
 				32BDEF2D28A05C93000D4C60 /* Hashtag.swift in Sources */,
 				32BDEF3428A05E68000D4C60 /* VideoPlayerViewController.swift in Sources */,
