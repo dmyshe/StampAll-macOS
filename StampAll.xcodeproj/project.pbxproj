@@ -15,6 +15,7 @@
 		32BDEF2F28A05CA5000D4C60 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BDEF2E28A05CA5000D4C60 /* File.swift */; };
 		32BDEF3228A05DD5000D4C60 /* VideoControlMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BDEF3128A05DD5000D4C60 /* VideoControlMenuView.swift */; };
 		32BDEF3428A05E68000D4C60 /* VideoPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BDEF3328A05E68000D4C60 /* VideoPlayerViewController.swift */; };
+		32E1765228A59EA60017618F /* TextEditorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E1765128A59EA60017618F /* TextEditorViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		32BDEF2E28A05CA5000D4C60 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		32BDEF3128A05DD5000D4C60 /* VideoControlMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoControlMenuView.swift; sourceTree = "<group>"; };
 		32BDEF3328A05E68000D4C60 /* VideoPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerViewController.swift; sourceTree = "<group>"; };
+		32E1765128A59EA60017618F /* TextEditorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditorViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 			children = (
 				324CEFC0289B1830008F3403 /* WatchAndNoteViewController.swift */,
 				32BDEF3328A05E68000D4C60 /* VideoPlayerViewController.swift */,
+				32E1765128A59EA60017618F /* TextEditorViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -193,6 +196,7 @@
 			files = (
 				324CEFC1289B1830008F3403 /* WatchAndNoteViewController.swift in Sources */,
 				32BDEF2F28A05CA5000D4C60 /* File.swift in Sources */,
+				32E1765228A59EA60017618F /* TextEditorViewController.swift in Sources */,
 				32BDEF2D28A05C93000D4C60 /* Hashtag.swift in Sources */,
 				32BDEF3428A05E68000D4C60 /* VideoPlayerViewController.swift in Sources */,
 				324CEFBF289B1830008F3403 /* AppDelegate.swift in Sources */,
