@@ -11,6 +11,7 @@
 		324CEFC1289B1830008F3403 /* WatchAndNoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324CEFC0289B1830008F3403 /* WatchAndNoteViewController.swift */; };
 		324CEFC3289B1835008F3403 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 324CEFC2289B1835008F3403 /* Assets.xcassets */; };
 		324CEFC6289B1835008F3403 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 324CEFC4289B1835008F3403 /* Main.storyboard */; };
+		3257641728A6EAD7003CED2A /* HashtagSuggestionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3257641628A6EAD7003CED2A /* HashtagSuggestionViewController.xib */; };
 		32BDEF2D28A05C93000D4C60 /* Hashtag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BDEF2C28A05C93000D4C60 /* Hashtag.swift */; };
 		32BDEF2F28A05CA5000D4C60 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BDEF2E28A05CA5000D4C60 /* File.swift */; };
 		32BDEF3228A05DD5000D4C60 /* VideoControlMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BDEF3128A05DD5000D4C60 /* VideoControlMenuView.swift */; };
@@ -27,6 +28,7 @@
 		324CEFC2289B1835008F3403 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		324CEFC5289B1835008F3403 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		324CEFC7289B1835008F3403 /* StampAll.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = StampAll.entitlements; sourceTree = "<group>"; };
+		3257641628A6EAD7003CED2A /* HashtagSuggestionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HashtagSuggestionViewController.xib; sourceTree = "<group>"; };
 		32BDEF2C28A05C93000D4C60 /* Hashtag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hashtag.swift; sourceTree = "<group>"; };
 		32BDEF2E28A05CA5000D4C60 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		32BDEF3128A05DD5000D4C60 /* VideoControlMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoControlMenuView.swift; sourceTree = "<group>"; };
@@ -133,6 +135,7 @@
 			isa = PBXGroup;
 			children = (
 				32E1765428A59FBE0017618F /* HashtagSuggestionViewController.swift */,
+				3257641628A6EAD7003CED2A /* HashtagSuggestionViewController.xib */,
 				32E1765628A5A0380017618F /* HashtagSuggestionTableViewCell.swift */,
 			);
 			path = Hashtag;
@@ -198,6 +201,7 @@
 			files = (
 				324CEFC3289B1835008F3403 /* Assets.xcassets in Resources */,
 				324CEFC6289B1835008F3403 /* Main.storyboard in Resources */,
+				3257641728A6EAD7003CED2A /* HashtagSuggestionViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
